@@ -1,9 +1,14 @@
-# api documentation for  [csv-parser (v1.11.0)](https://github.com/mafintosh/csv-parser)  [![npm package](https://img.shields.io/npm/v/npmdoc-csv-parser.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-csv-parser) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-csv-parser.svg)](https://travis-ci.org/npmdoc/node-npmdoc-csv-parser)
+# npmdoc-csv-parser
+
+#### api documentation for  [csv-parser (v1.11.0)](https://github.com/mafintosh/csv-parser)  [![npm package](https://img.shields.io/npm/v/npmdoc-csv-parser.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-csv-parser) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-csv-parser.svg)](https://travis-ci.org/npmdoc/node-npmdoc-csv-parser)
+
 #### Streaming CSV parser that aims for maximum speed as well as compatibility with the csv-spectrum test suite
 
 [![NPM](https://nodei.co/npm/csv-parser.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/csv-parser)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-csv-parser/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-csv-parser/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-csv-parser/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-csv-parser/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-csv-parser/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-csv-parser/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-csv-parser/build/screenCapture.npmPackageListing.svg)
 
@@ -77,58 +82,6 @@
     },
     "version": "1.11.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module csv-parser](#apidoc.module.csv-parser)
-1.  [function <span class="apidocSignatureSpan"></span>csv-parser (opts)](#apidoc.element.csv-parser.csv-parser)
-1.  [function <span class="apidocSignatureSpan">csv-parser.</span>toString ()](#apidoc.element.csv-parser.toString)
-
-
-
-# <a name="apidoc.module.csv-parser"></a>[module csv-parser](#apidoc.module.csv-parser)
-
-#### <a name="apidoc.element.csv-parser.csv-parser"></a>[function <span class="apidocSignatureSpan"></span>csv-parser (opts)](#apidoc.element.csv-parser.csv-parser)
-- description and source-code
-```javascript
-csv-parser = function (opts) {
-  return new Parser(opts)
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.csv-parser.toString"></a>[function <span class="apidocSignatureSpan">csv-parser.</span>toString ()](#apidoc.element.csv-parser.toString)
-- description and source-code
-```javascript
-toString = function () {
-    return toString;
-}
-```
-- example usage
-```shell
-...
-  }
-
-  return this._onvalue(buf, start, y)
-}
-
-Parser.prototype._onvalue = function (buf, start, end) {
-  if (this._raw) return buf.slice(start, end)
-  return buf.toString('utf-8', start, end)
-}
-
-function defaultMapHeaders (id) {
-  return id
-}
-
-module.exports = function (opts) {
-...
 ```
 
 
